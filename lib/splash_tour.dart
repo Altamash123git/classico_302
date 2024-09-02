@@ -11,6 +11,7 @@ class SplashPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 4), (){
+
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomePage()));
     });
     // TODO: implement build
